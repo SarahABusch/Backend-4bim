@@ -1,6 +1,6 @@
-import express from "express"
+import express, {request} from "express"
 import cors from "cors"
-import {persons} from "./persons"
+import {persons} from "./persons.js"
 
 const app = express()
 const port = 3333
